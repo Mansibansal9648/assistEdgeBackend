@@ -1,0 +1,5 @@
+IT Security Guidelines:
+- Always lock your computer when away.
+- Use strong passwords and enable 2FA.
+- Do not share credentials.
+- Report phishing emails immediately.
