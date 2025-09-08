@@ -1,3 +1,1 @@
-BirlaSoft is a global IT services company specializing in digital transformation, cloud solutions, and enterprise applications.
-Core values: Integrity, Excellence, Customer Success, and Innovation.
-Organizational structure: CEO, Business Units (Banking, Insurance, Manufacturing), and Global Delivery Centers.
+Birlasoft is a global IT services company, part of the CK Birla Group, headquartered in Pune, India. Established in 1995, it specializes in digital transformation, cloud services, enterprise applications like SAP and Oracle, and IT consulting. Birlasoft has a strong presence in manufacturing, banking, healthcare, and energy industries, with around 12,000 employees worldwide. The company focuses on next-gen technologies such as AI, low-code platforms, and cloud-native modernization, partnering with global leaders like Microsoft, AWS, SAP, and Salesforce to deliver innovative and sustainable solutions to its clients.

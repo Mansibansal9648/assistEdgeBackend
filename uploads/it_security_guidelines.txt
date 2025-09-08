@@ -1,0 +1,111 @@
+Birlasoft IT Security Guidelines
+
+1. Purpose
+
+Ensure confidentiality, integrity, and availability (CIA) of company and client data.
+
+Provide a framework for secure IT practices across employees, contractors, and partners.
+
+Minimize risk of data breaches, cyber attacks, and non-compliance.
+
+2. General Guidelines
+
+Password Management:
+
+Use strong, unique passwords (min. 12 characters, mix of letters, numbers, symbols).
+
+Change passwords periodically and never share with others.
+
+Multi-Factor Authentication (MFA):
+
+Mandatory for all critical systems, VPNs, and cloud services.
+
+Device Security:
+
+Company laptops/desktops must have antivirus, firewall, and encryption enabled.
+
+Avoid using personal devices for sensitive work unless approved.
+
+Network Security:
+
+Use secure networks (VPN) for remote access.
+
+Avoid public Wi-Fi for official tasks without encryption.
+
+3. Data Protection Guidelines
+
+Data Classification:
+
+Label data as Public, Internal, Confidential, or Highly Confidential.
+
+Data Storage:
+
+Store sensitive data on company-approved drives or cloud storage.
+
+Data Transfer:
+
+Use encrypted channels (VPN, SFTP, HTTPS) for sensitive data.
+
+Data Retention & Disposal:
+
+Follow retention schedules; securely delete data when no longer required.
+
+4. Application Security Guidelines
+
+Secure Development:
+
+Follow DevSecOps practices, secure coding standards, and code reviews.
+
+Patch Management:
+
+Apply security patches for operating systems, applications, and middleware promptly.
+
+Vulnerability Testing:
+
+Conduct regular penetration testing, static and dynamic code analysis.
+
+5. Email & Communication Guidelines
+
+Phishing Awareness:
+
+Verify sender before clicking links or opening attachments.
+
+Report suspicious emails to IT security team immediately.
+
+Sensitive Information Sharing:
+
+Share confidential data only through authorized, encrypted channels.
+
+Social Media & Public Communication:
+
+Do not disclose internal information or company strategies online.
+
+6. Cloud & Remote Access Guidelines
+
+Authorized Access:
+
+Access cloud services only with company-approved accounts and MFA.
+
+Data Backup:
+
+Ensure critical data is backed up according to company policy.
+
+Remote Work:
+
+Use VPN, encrypted drives, and adhere to device security standards.
+
+7. Incident Response
+
+Report security incidents immediately (data breach, phishing, lost/stolen devices).
+
+Follow escalation to IT Security and Management teams.
+
+Maintain logs and evidence for investigation.
+
+8. Compliance & Training
+
+Mandatory IT Security Awareness Training for all employees annually.
+
+Compliance with ISO 27001, SOC 2, GDPR, HIPAA and other client/regulatory requirements.
+
+Periodic audits and risk assessments to enforce adherence.
