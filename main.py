@@ -184,9 +184,10 @@ async def query_knowledge(req: QueryRequest):
     contexts, seen_texts, total_length = [], set(), 0
     doc_link = None
     max_context_chars = 2500
+    DISTANCE_THRESHOLD = 1.0
 
-    for idx in I[0]:
-        if idx < len(stored_docs):
+    for idx, score in zip(I[0], D[0]):
+        if idx < len(stored_docs) and score < DISTANCE_THRESHOLD:
             doc = stored_docs[idx]
             text = doc["text"] if isinstance(doc, dict) else str(doc)
             text = text.strip()
@@ -201,6 +202,13 @@ async def query_knowledge(req: QueryRequest):
 
                 if not doc_link:
                     doc_link = f"http://localhost:8000/download/{idx}"
+     # If no context found → return "not found" message
+    if not contexts:
+        return {
+            "query": req.query,
+            "answer": "❌ Sorry, I couldn’t find relevant information in the knowledge base for your query.",
+            "document_link": None
+        }
 
     context = " ".join(contexts)
 
